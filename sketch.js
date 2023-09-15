@@ -1,4 +1,4 @@
-
+git 
 function setup() {
   createCanvas(400, 400);
   noLoop();
@@ -11,7 +11,8 @@ function draw() {
   noStroke();
 
   fill(60,128,128,100);
-  rect (50,50,100,100)
+  rect (50,50,100,100);
+  rect (50,40,20,90);
   
   fill(60,128,64,100);
   rect (170,50,100,100);
